@@ -10,6 +10,8 @@ int main()
     const int screenWidth = 800;
     const int screenHeight = 800;
 
+    SetRandomSeed(1);
+
     const int particleCount = 100000;
     Particle *particles = (Particle*)malloc(particleCount * sizeof(Particle));
 
